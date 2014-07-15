@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		3F04F3D31974FECD00F5DC84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04F3D21974FECD00F5DC84 /* AppDelegate.swift */; };
 		3F04F3D61974FECD00F5DC84 /* Social_Lifes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F04F3D41974FECD00F5DC84 /* Social_Lifes.xcdatamodeld */; };
-		3F04F3D81974FECD00F5DC84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04F3D71974FECD00F5DC84 /* ViewController.swift */; };
+		3F04F3D81974FECD00F5DC84 /* AddAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04F3D71974FECD00F5DC84 /* AddAccountsViewController.swift */; };
 		3F04F3DB1974FECD00F5DC84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F04F3D91974FECD00F5DC84 /* Main.storyboard */; };
 		3F04F3DD1974FECD00F5DC84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F04F3DC1974FECD00F5DC84 /* Images.xcassets */; };
 		3F04F3E91974FECD00F5DC84 /* Social_LifesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04F3E81974FECD00F5DC84 /* Social_LifesTests.swift */; };
+		AF363E4B197510EE00C23A24 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF363E4A197510EE00C23A24 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +31,13 @@
 		3F04F3D11974FECD00F5DC84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F04F3D21974FECD00F5DC84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F04F3D51974FECD00F5DC84 /* Social_Lifes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Social_Lifes.xcdatamodel; sourceTree = "<group>"; };
-		3F04F3D71974FECD00F5DC84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F04F3D71974FECD00F5DC84 /* AddAccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccountsViewController.swift; sourceTree = "<group>"; };
 		3F04F3DA1974FECD00F5DC84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F04F3DC1974FECD00F5DC84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F04F3E21974FECD00F5DC84 /* Social LifesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social LifesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F04F3E71974FECD00F5DC84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F04F3E81974FECD00F5DC84 /* Social_LifesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_LifesTests.swift; sourceTree = "<group>"; };
+		AF363E4A197510EE00C23A24 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF363E4B197510EE00C23A24 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 			children = (
 				3F04F3CF1974FECD00F5DC84 /* Social Lifes */,
 				3F04F3E51974FECD00F5DC84 /* Social LifesTests */,
+				AF363E4C197510F500C23A24 /* Frameworks */,
 				3F04F3CE1974FECD00F5DC84 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,10 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				3F04F3D21974FECD00F5DC84 /* AppDelegate.swift */,
-				3F04F3D71974FECD00F5DC84 /* ViewController.swift */,
+				3F04F3D71974FECD00F5DC84 /* AddAccountsViewController.swift */,
 				3F04F3D91974FECD00F5DC84 /* Main.storyboard */,
 				3F04F3DC1974FECD00F5DC84 /* Images.xcassets */,
 				3F04F3D41974FECD00F5DC84 /* Social_Lifes.xcdatamodeld */,
+				AF363E4E1975115700C23A24 /* Resources */,
 				3F04F3D01974FECD00F5DC84 /* Supporting Files */,
 			);
 			path = "Social Lifes";
@@ -110,6 +115,22 @@
 				3F04F3E71974FECD00F5DC84 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF363E4C197510F500C23A24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF363E4A197510EE00C23A24 /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF363E4E1975115700C23A24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F04F3D81974FECD00F5DC84 /* ViewController.swift in Sources */,
+				3F04F3D81974FECD00F5DC84 /* AddAccountsViewController.swift in Sources */,
 				3F04F3D61974FECD00F5DC84 /* Social_Lifes.xcdatamodeld in Sources */,
 				3F04F3D31974FECD00F5DC84 /* AppDelegate.swift in Sources */,
 			);
@@ -401,6 +422,7 @@
 				3F04F3EE1974FECD00F5DC84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F04F3EF1974FECD00F5DC84 /* Build configuration list for PBXNativeTarget "Social LifesTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +431,7 @@
 				3F04F3F11974FECD00F5DC84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
