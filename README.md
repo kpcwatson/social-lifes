@@ -1,2 +1,2 @@
-social-lives
+social-lifes
 ============
